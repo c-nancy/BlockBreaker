@@ -1714,6 +1714,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4044282268321882, guid: 0c0de220eafdff84eafd60e71c191318,
     type: 2}
   m_PrefabInternal: {fileID: 583005841}
+--- !u!114 &598507046 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114774300435399846, guid: edbd7f928e45bbf478ec95f9cf630f37,
+    type: 2}
+  m_PrefabInternal: {fileID: 1530661265}
+  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
 --- !u!1001 &677868558
 Prefab:
   m_ObjectHideFlags: 0
@@ -1935,6 +1941,11 @@ Prefab:
       propertyPath: scorePerRestart
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 114193492631756968, guid: c46908884f48dc74e8fd4a3276da5cec,
+        type: 2}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 598507046}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c46908884f48dc74e8fd4a3276da5cec, type: 2}
   m_IsPrefabParent: 0

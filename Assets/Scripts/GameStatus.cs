@@ -15,7 +15,7 @@ public class GameStatus : MonoBehaviour {
 
     // state variables
     bool hasTerminated;
-    [SerializeField] int currentScore;
+    [SerializeField] int currentScore = 0;
 
     // Use this for initialization
     void Start () {
