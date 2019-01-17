@@ -6,8 +6,8 @@ public class Ball : MonoBehaviour {
 
     // params
     [SerializeField] Paddle paddle;
-    [SerializeField] float xPush = 2f;
-    [SerializeField] float yPush = 15f;
+    [SerializeField] float xPush;
+    [SerializeField] float yPush;
     [SerializeField] AudioClip[] ballSounds;
     [SerializeField] GameStatus status;
 
@@ -25,6 +25,8 @@ public class Ball : MonoBehaviour {
         hasStarted = false;
         myAudioSource = GetComponent<AudioSource>();
         status = FindObjectOfType<GameStatus>();
+        xPush = UnityEngine.Random.Range(-1, 1);
+        yPush = 15f;
     }
 	
 	// Update is called once per frame
