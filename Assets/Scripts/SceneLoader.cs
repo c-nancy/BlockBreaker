@@ -18,7 +18,7 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadEndScene()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 2);
     }
 
     public void QuitGame()
@@ -28,6 +28,6 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadWinScene()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
     }
 }

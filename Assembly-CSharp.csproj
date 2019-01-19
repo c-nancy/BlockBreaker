@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball.cs" />
-    <Compile Include="Assets\Scripts\bgm.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
     <Compile Include="Assets\Scripts\GameStatus.cs" />
     <Compile Include="Assets\Scripts\GlobalRecord.cs" />

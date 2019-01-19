@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour {
     
@@ -14,6 +15,8 @@ public class Level : MonoBehaviour {
     private void Start()
     {
         sceneLoader = FindObjectOfType<SceneLoader>();
+        thisLevel = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log(thisLevel);
     }
 
 
@@ -22,17 +25,14 @@ public class Level : MonoBehaviour {
         remainingBlocks++;
     }
 
-    public void SetThisLevel(int thisLevel) {
-        this.thisLevel = thisLevel;
-    }
-
     public void RemoveOneBlock()
     {
         remainingBlocks--;
         if (remainingBlocks <= 0)
         {
-            if (thisLevel == 2)
+            if (thisLevel == SceneManager.sceneCountInBuildSettings - 3)
             {
+                Debug.Log("win");
                 sceneLoader.LoadWinScene();
             }
             else

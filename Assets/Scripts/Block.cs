@@ -12,7 +12,6 @@ public class Block : MonoBehaviour {
     {
         level = FindObjectOfType<Level>();
         level.CountRemainingBlocks();
-        level.SetThisLevel(SceneManager.GetActiveScene().buildIndex);
         status = FindObjectOfType<GameStatus>();
     }
 

@@ -2417,7 +2417,7 @@ Prefab:
     - target: {fileID: 114931154345309002, guid: 4b8b028992941ab449898fcd489626c0,
         type: 2}
       propertyPath: yPush
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4b8b028992941ab449898fcd489626c0, type: 2}
