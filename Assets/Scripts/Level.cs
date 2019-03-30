@@ -16,7 +16,6 @@ public class Level : MonoBehaviour {
     {
         sceneLoader = FindObjectOfType<SceneLoader>();
         thisLevel = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log(thisLevel);
     }
 
 

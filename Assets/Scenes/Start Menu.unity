@@ -556,6 +556,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1652828638059758, guid: 3a3b41f2ece9bec4f87e3d9ea12603bb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114850528070359288, guid: 3a3b41f2ece9bec4f87e3d9ea12603bb,
+        type: 2}
+      propertyPath: gameStatus
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a3b41f2ece9bec4f87e3d9ea12603bb, type: 2}
   m_IsPrefabParent: 0
@@ -1010,7 +1019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -342}
+  m_AnchoredPosition: {x: 0, y: -342}
   m_SizeDelta: {x: 247.5, y: 101.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2138456610

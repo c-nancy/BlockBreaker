@@ -22,9 +22,10 @@ public class Block : MonoBehaviour {
 
     private void DestroyBlock()
     {
+        
+        status.AddToScore();
         AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
         Destroy(gameObject, 0f);
         level.RemoveOneBlock();
-        status.AddToScore();
     }
 }

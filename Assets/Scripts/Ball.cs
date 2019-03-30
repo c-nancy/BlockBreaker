@@ -61,7 +61,7 @@ public class Ball : MonoBehaviour {
         if (Input.GetMouseButtonDown(1))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush, yPush);
-            status.subtractScore();
+            status.SubtractScore();
         }
     }
 
